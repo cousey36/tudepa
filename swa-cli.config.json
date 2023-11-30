@@ -1,0 +1,14 @@
+{
+  "$schema": "https://aka.ms/azure/static-web-apps-cli/schema",
+  "configurations": {
+    "tudepa": {
+      "appLocation": ".",
+      "outputLocation": "dist\\tudepa\\browser",
+      "appBuildCommand": "ng build",
+      "run": "npm install",
+      "appDevserverUrl": "http://localhost:4200",
+      "appName": "tudepa",
+      "resourceGroup": "tudepa-rg"
+    }
+  }
+}
